@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品交易网站</title>
+    
+    <style>
+        *{
+            font-size: 14px;
+        }
+        #top{
+            width: 1200px;
+            height: 220px;
+            margin: 0 auto;     
+            }
+        
+        #top1 a {
+            color: black;
+            text-decoration: none;
+            padding: 5px;
+        }
+        #top1 a:hover{
+            text-decoration: underline;
+  
+        }
+        #top1{
+            height: 30px;
+            border-radius: 5px;
+            background-color: gray;
+            text-indent: 10px;
+            line-height: 30px;
+        }
+        #top2{
+            height: 50px;
+            margin-top: 10px;
+
+        }
+        #searchbox{
+            width: 600px;
+            height: 23px;
+            border-style: solid;
+            border-color: rgb(153, 153, 153);
+            border-radius: 3px;
+            outline: none;
+            margin-top: 10px;
+        }
+        #button{
+            width: 50px;
+            height: 25px;
+            border-radius: 5px;
+        }
+        #top3{
+            height: 20px;
+            margin-right: 235px;
+        }
+        #top3 a{
+            text-decoration: none;
+            padding: 5px;
+        }
+        #top3 a:hover{
+            text-decoration: underline;
+        }
+        #top4{
+            height: 30px;
+            margin-top: 10px;
+            background-color: rgb(125, 125, 126);
+            line-height: 30px;
+            border-radius: 5px;
+        }
+        #price{
+            border-radius: 5px;
+            outline: none;
+            border-style: solid;
+            border-color: gray;
+        }
+        #center{
+            width: 1000px;
+            height: 500px;
+            margin-top: 10;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id = "top">
+
+        <div id = "top1">
+            
+            <div style="float: left;">
+                <a href="#">请登录</a>
+                <a href="#">注册</a>
+            </div>
+            
+            <div style="float: right;">
+                    <a href="#">个人中心</a>
+                    <a href="#">消息</a>
+                    <a href="#">购物车</a>
+                    <a href="#">出售</a>
+                    <a href="#">联系客服</a>
+                    <a href="#">联系买家</a>
+                    <a href="#">卖闲置</a>
+            </div>
+        </div>
+
+        <div id = "top2">
+
+            <div style="float: right;margin-right: 100px;">
+                <input type="text" id = "searchbox" name = "search" placeholder="搜索你喜欢的商品">
+                <input type="submit" id = "button" value = "搜索"><!--需要在顶框style上设置-->
+            </div>
+
+        </div>
+
+        <div id = "top3">
+            <div style = "float: right; margin-right: 20px;">
+                <a href=""></a>
+                <a href="">连衣裙</a>
+                <a href="">数码</a>
+                <a href="">零食</a>
+                <a href="">电器</a>
+                <a href="">男装</a>
+                <a href="">饰品</a>
+                <a href="">医药</a>
+                <a href="">百货</a>
+                <a href="">箱包</a>
+                <a href="">家具</a>
+                <a href="">美妆</a>
+                <a href="">文具</a>
+            </div>
+        </div>
+
+        <div id = "top4">
+            <div style="float: left;">
+                价格：<input type="text" id = "price">--<input type = "text" id="price">
+            </div>
+
+            <div style="float: right;">
+                <input type="checkbox" id = "check" value = "1">二手
+                <input type="checkbox" id = "check" value = "2">包邮
+            </div>
+        </div>
+
+        <div id = "center">
+            <table id = "goods" width = "100%">
+                <tr>
+                    <td>
+                        <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3030806678,1093649739&fm=26&gp=0.jpg" alt="正在加载" width="250px" ><!--设置宽度-->
+                        <p style="color: crimson;">&yen 3999;</p>
+                        <p>佳能Cannon G7 X Mark</p>
+                        <p style="color: gray;">店铺好评</p>
+               
+                    <td>
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584675645184&di=d7ddd591194e6bf15c1f464ad167310e&imgtype=0&src=http%3A%2F%2Fmall5.iqiyipic.com%2Fmall%2F20160825%2Fa9%2Fd4%2Fmall_57be8de2ad8c1224bc89a9d4_1x1.png" alt="正在加载"  width="250px"></br><!--设置宽度-->
+                        <p style="color: crimson;">&yen 27.9;</p>
+                        <p>三养Samyang 火鸡面</p>
+                        <p style="color: gray;">店铺好评</p>
+                
+                    <td>
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584675750074&di=1b83ea2dbab377fa42c131b6215d3092&imgtype=0&src=http%3A%2F%2Fimg.11665.com%2Fimg03_p%2Fi3%2FT1Dc6TXmxcXXXiS0sU_014239.jpg" alt="正在加载"  width="250px"></br><!--设置宽度-->
+                        <p style="color: crimson;">&yen 5.5;</p>
+                        <p>Alice 原创 冰箱贴</p>
+                        <p style="color: gray;">店铺好评</p>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584676123021&di=be29e08d46e8b2d085d9f8b9566fa030&imgtype=0&src=http%3A%2F%2Fimg.mp.sohu.com%2Fupload%2F20170617%2F6035fe22bb6849b58d5d27eee4422df9_th.png" alt="正在加载" width="250px" ></br><!--设置宽度-->
+                        <p style="color: crimson;">&yen 72;</p>
+                        <p>花王蒸汽眼罩</p>
+                        <p style="color: gray;">店铺好评</p>
+                        <td>
+                            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584676208518&di=8bbdbc746f12d3e72beffcc1c6cbfdca&imgtype=0&src=http%3A%2F%2Fwww.da-quan.net%2Fuppic%2Fhttp%3A%2F%2Fwx2.sinaimg.cn%2Flarge%2F0066U7C7gy1fd1b6cvy4pj30m80m8mza.jpg.jpg" alt="正在加载" width="250px" ></br><!--设置宽度-->
+                            <p style="color: crimson;">&yen 39;</p>
+                            <p>螺蛳粉</p>
+                            <p style="color: gray;">店铺好评</p>
+                        <td>
+                            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584676301163&di=054490f390ea3f69aa543b76a8417ff9&imgtype=0&src=http%3A%2F%2Fy.zdmimg.com%2F201507%2F15%2F55a609c7653a3.jpeg_d320.jpg" alt="正在加载" width="250px" ></br><!--设置宽度-->
+                            <p style="color: crimson;">&yen 199;</p>
+                            <p>优衣库卫衣</p>
+                            <p style="color: gray;">店铺好评</p>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>
