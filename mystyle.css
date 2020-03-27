@@ -1,0 +1,187 @@
+.top{
+    position: fixed;
+    top: 0px;
+}
+
+.top-left{
+    display: block;
+}
+
+.guide li{
+    display: inline-block;
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li a{
+    display: block;
+    color: rgb(138, 135, 135);
+    text-align: center;
+    padding: 3px 15px;
+}
+
+li a:hover:not(.active){
+    color: black;
+    cursor: pointer;
+}
+.active{
+    color: black;
+    border-bottom: 2px solid rgb(45, 77, 218);
+}
+.top{
+    height: 20px;
+    width: 100%;
+    border-bottom: 3px solid rgb(179, 176, 176);
+}
+.top-center{
+    background-color: white;
+    padding: 18px;
+    border-bottom:1px solid rgb(218, 214, 214);
+}
+    
+#searchbox{
+    border: 1px soild rgb(179, 176, 176);
+    border-radius: 3px;
+    height: 22px;
+    width: 400px;
+    margin: 0px 10px 0px 40px;
+    line-height: 20px;
+    background-color: rgb(238, 234, 234);
+}
+
+#button{
+    height:28px;
+    width: 50px;
+    color: white;
+    background-color: rgb(65, 89, 170);
+    border: 1px soild;
+    border-radius: 3px;
+}
+
+.dropbtn{
+    cursor: pointer;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px;
+    
+}
+
+.dropdown-content a{
+    color:black;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0px;
+}
+
+.dropdown-content a:hover{
+    background-color: rgb(192, 189, 189);
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.main{
+    position: relative;
+    top: 80px;
+    z-index: -1;
+    
+}
+image{
+    width: 950px;
+    height: 150px;
+   margin: 0px 65px;
+}
+.main-left{
+    border: 1px solid rgb(236, 233, 233);
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.main-right{
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+td{
+    text-align: center;
+    border: 1px solid rgb(236, 233, 233);
+}
+table{
+    background-color: rgb(238, 246, 248);
+}
+td{
+    width:50%;
+    height:150px;
+}
+td a{
+    color: black;
+}
+td p{
+    height: 50px;
+    overflow: auto;
+}
+td a:hover{
+    color: gray;
+}
+span{
+    float: left;
+}
+
+.bar {
+    background-color: white;
+    border: none;
+}
+
+.bar td{
+    font-size: smaller;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.side{
+    float: right;
+    margin-right: 60px;
+}
+.side li{
+    margin: 5px;
+    width: 200px;
+    background-color: rgb(214, 227, 238);
+}
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width:120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    right: 105%;
+}
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}

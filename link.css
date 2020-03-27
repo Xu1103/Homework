@@ -1,0 +1,183 @@
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: baseline;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    padding:0px 100px;
+}
+.top-left{
+    display: flex;
+    flex-direction: row;
+}
+.top-center{
+    display: flex;
+    flex-direction: row;
+}
+.top-right{
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    align-items: flex-start;
+    top: 80px;
+}
+.main-left{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    margin-top: -15px;
+    margin-left: 80px;
+
+}
+.main-center{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin-left: 50px;
+}
+.main-right{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    margin-left: 50px;
+    background-color: rgb(87, 152, 173);
+}
+.main-top-btm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-center-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-top: 30px;
+    background-color: rgb(87, 152, 173);
+    padding: 15px 0px;
+}
+.main-center-middle a{
+    padding: 0px 15px;
+}
+.main-center-bottom table td a :first-child{
+    margin-left: 20px;
+}
+.main-center-bottom table td a {
+    font-size: small;
+    padding-left: 30px;
+}
+
+.main-right a{
+    color: black;
+    padding: 15px 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+.leftbar{
+    background-color: rgb(87, 152, 173);
+}
+a{
+    text-decoration: none;
+    color:rgb(5, 5, 5);
+}
+a:hover{
+    color:lightblue;
+}
+
+
+li{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+li a {
+    color:black;
+    padding: 3px 15px;
+}
+
+.main-left li a{
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+
+li a:hover{
+    color: gray;
+}
+#searchbox .btn{
+    display: flex;
+    flex-direction: row;
+}
+#searchbox{
+    border: 1px soild gainsboro;
+    border-radius: 3px;
+    height: 25px;
+    width: 400px;
+}
+.btn{
+    border: 1px soild gainsboro;
+    background-color: lightcoral;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: red;
+}
+.dropdown{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding: 0px 15px;
+}
+.dropbtn{
+    color: black;
+}
+.dropbtn:hover{
+    color: gray;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(221, 221, 221);
+    min-width: 160px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px;
+}
+.dropdown-content a{
+    color:black;
+    text-decoration: none;
+    padding: 8px 0px;
+}
+.dropdown-content a:hover{
+    background-color: rgb(192, 189, 189);
+}
+.dropdown:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+#sendtext{
+    height:160px;
+    width: 500px;
+    border: 1px soild black;
+    border-radius: 2px;
+}
+table td{
+    border: 1px solid gray;
+}
+td{
+    border: 1px soild black;
+    border-radius: 3px;
+    height: 140px;
+}
